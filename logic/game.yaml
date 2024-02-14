@@ -1,0 +1,10 @@
+path: volarant
+train: images
+val: val
+test: test
+
+# Keypoints
+kpt_shape: [17, 3] # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+
+names:
+  0: player
