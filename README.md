@@ -33,7 +33,9 @@ For installation please follow guide in [yolov8_aimbot](https://github.com/SunOn
 
 Prepare training dataset:
 
-- take screenshot of different agents in various postions; crop the image to size 640；label pose location following this [link](https://docs.ultralytics.com/datasets/pose/#ultralytics-yolo-format).
+- take screenshot of different agents in various postions
+- crop the image to size 640
+- label pose location following this [link](https://docs.ultralytics.com/datasets/pose/#ultralytics-yolo-format)
 
 Train the model.
 
