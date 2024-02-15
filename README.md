@@ -6,7 +6,7 @@
 
 ## Overview
 
-This work is a fined tune version of [yolov8_aimbot](https://github.com/SunOner/yolov8_aimbot/tree/main). The main features are 1. add training features to existing pipline. 2. Fine tuned model to detect Volarant characters. 3. Add pose estimation model to imporve accuracy on head shot
+This work is a fine-tuned version of [yolov8_aimbot](https://github.com/SunOner/yolov8_aimbot/tree/main). The main features include 1. add training stages to existing pipline. 2. Transfer learning to detect Volarant characters. 3. Add pose estimation model to imporve accuracy on head shot.
 
 ## Installation
 
@@ -31,10 +31,20 @@ For installation please follow guide in [yolov8_aimbot](https://github.com/SunOn
 
 ## To use the framework
 
-Run in console:
+Prepare training dataset:
+
+- take screenshot of different agents in various postions; crop the image to size 640；label pose location following this [link](https://docs.ultralytics.com/datasets/pose/#ultralytics-yolo-format).
+
+Train the model.
 
 ```cmd
 python train.py
+```
+
+Using the model
+
+```cmd
+python run.py
 ```
 
 ## trainng parameter settings
