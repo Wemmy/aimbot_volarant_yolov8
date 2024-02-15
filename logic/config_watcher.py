@@ -72,5 +72,20 @@ class Config():
         self.debug_window_scale_percent = int(self.config_Debug_window['debug_window_scale_percent'])
         self.debug_window_name = str(self.config_Debug_window['debug_window_name'])
 
+        self.config_model_train = self.config['Model Training']
+        self.pertrained_model_path = str(self.config_model_train['pertrained_model_path'])
+        self.train_data_path = str(self.config_model_train['train_data_path'])
+        self.num_epoch = int(self.config_model_train['num_epoch'])
+        self.save_checkpoint = self.config_model_train.getboolean('save_checkpoint')
+        self.train_output_path = str(self.config_model_train['train_output_path'])
+        self.optimizer = str(self.config_model_train['optimizer'])
+        self.verbose = self.config_model_train.getboolean('verbose')
+        self.cosine_lr = float(self.config_model_train['cosine_lr'])
+        self.freeze_layer = str(self.config_model_train['freeze_layer'])
+        self.learning_rate = float(self.config_model_train['learning_rate'])
+        self.momentum = float(self.config_model_train['momentum'])
+        self.pose_loss_weight = float(self.config_model_train['pose_loss_weight'])
+        self.keypoint_objectness_loss_weight = float(self.config_model_train['keypoint_objectness_loss_weight'])
+
         if verbose:
             print('Config reloaded')

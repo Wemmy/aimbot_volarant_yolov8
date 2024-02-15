@@ -37,10 +37,10 @@ Run in console:
 python train.py
 ```
 
-- `model="model_path/model_name.pt"`: Path to model.
-- `format=engine`: TensorRT model format.
-- `half=true`: Use Half-precision floating-point format.
-- `device=0`: GPU id.
-- `workspace=8`: GPU max video memory.
-- `imgsz=320`: Model image size.
-- `verbose=False`: Debug stuff. Convenient function, can show errors when exporting.
+## trainng parameter settings
+
+- pertrained_model_path `str` : start with a pretrained pose model for a better result
+- train_data_path `str` : traning data path (need to set up dataset based on this site(https://docs.ultralytics.com/datasets/pose/))
+- optimizer `str`: play with adaptvie optimizer for pose estimation
+- cosine_lr `bool`: cosine decay may heep with training
+- freeze_layer `int`: transfer leaning, freeze weight of backbone
