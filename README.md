@@ -6,11 +6,11 @@
 
 ## Overview
 
-This work is a fined tune version of yolov8_aimbot(https://github.com/SunOner/yolov8_aimbot/tree/main). The main features are 1. add training features to existing pipline. 2. Fine tuned model to detect Volarant characters. 3. Add pose estimation model to imporve accuracy on head shot
+This work is a fined tune version of [yolov8_aimbot](https://github.com/SunOner/yolov8_aimbot/tree/main). The main features are 1. add training features to existing pipline. 2. Fine tuned model to detect Volarant characters. 3. Add pose estimation model to imporve accuracy on head shot
 
 ## Installation
 
-For installation please follow guide in yolov8_aimbot(https://github.com/SunOner/yolov8_aimbot/tree/main)
+For installation please follow guide in [yolov8_aimbot](https://github.com/SunOner/yolov8_aimbot/tree/main)
 
 ## Tested Environment
 
@@ -40,7 +40,7 @@ python train.py
 ## trainng parameter settings
 
 - pertrained_model_path `str` : start with a pretrained pose model for a better result
-- train_data_path `str` : traning data path (need to set up dataset based on this site(https://docs.ultralytics.com/datasets/pose/))
+- train_data_path `str` : traning data path (need to set up dataset based on this [site](https://docs.ultralytics.com/datasets/pose/))
 - optimizer `str`: play with adaptvie optimizer for pose estimation
 - cosine_lr `bool`: cosine decay may heep with training
 - freeze_layer `int`: transfer leaning, freeze weight of backbone
