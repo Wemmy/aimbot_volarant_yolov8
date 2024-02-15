@@ -6,7 +6,10 @@
 
 ## Overview
 
-This work is a fine-tuned version of [yolov8_aimbot](https://github.com/SunOner/yolov8_aimbot/tree/main). The main features include 1. add training stages to existing pipline. 2. Transfer learning to detect Volarant characters. 3. Add pose estimation model to imporve accuracy on head shot.
+This work is a fine-tuned version of [yolov8_aimbot](https://github.com/SunOner/yolov8_aimbot/tree/main). The main features include:
+  1. add training stages to existing pipline. 
+  2. Transfer learning to detect Volarant characters. 
+  3. Add pose estimation model to imporve accuracy on head shot.
 
 ## Installation
 
