@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-      <img width="75%" src="https://github.com/Wemmy/yolov8_aimbot-main/blob/main/media/test.gif"></a>
+      <img src="https://github.com/Wemmy/yolov8_aimbot-main/blob/main/media/test.gif"></a>
   </p>
 </div>
 
